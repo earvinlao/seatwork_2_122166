@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Reserve a Room</title>
+    <!-- Include the bootstrap stylesheets -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet">
+  </head>
+	<body background="1.jpg">
+	div class="container">
+      <div class="row">
+ <a href='/home'><div class="col-md-3">Home</div></a>
+       <a href='/room'><div class="col-md-3">Rooms</div></a>
+       <a href='/hotel'><div class="col-md-3">Reserve a Room</div></a>
+	   <a href='/about'><div class="col-md-3">About Us</div></a>
+      </div>
+    </div>
+	<font color="black">
+		<h1>RESERVE A ROOM</h1>
+			<center>
+		<b><h1> Room Reservation Form </h1></b>
+		Room type:<br><br>
+<form method="POST" action="/hotel">
+		<select name="rooms">  
+  		<option value="president">Presidential Suite</option>
+  		<option value="regular">Regular Suite</option>
+		<option value="poor">Poor Suite</option>
+ 	 	</select><br><br>
+ 				 Name:<br><br>
+  				 </font>
+
+		<font color="black">
+		<br>
+  		<input type="Name" name="name">
+		</font><br><br>
+  		<font color="white">
+  		Date:<br><br>
+   	</font>
+   	<font color="black">
+  		<input type="date" name="checkin_date">
+  		<br><br>
+  		<input type="date" name="checkout_date">
+  		<br><br>
+		<input type="submit" value="Go">
+		</font>
+		</form>	
+	</body>
+</html>
+
